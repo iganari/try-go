@@ -5,7 +5,7 @@ import (
        "time"
        )
 
-func setSleep(sleepTime int){
+func setSleepTime(sleepTime int){
     fmt.Println("Sleep start :", sleepTime, "s")
     time.Sleep(time.Duration(sleepTime) * time.Second)
     fmt.Println("Sleep fnish :", sleepTime, "s")
@@ -20,5 +20,5 @@ func main(){
     // time.Sleep( 1 * time.Minute)
     // time.Sleep( 1 * time.Hour)
     // fmt.Println("num", num,  "sec sleep end")
-    setSleep(5)
+    setSleepTime(5)
 }
