@@ -6,9 +6,9 @@ import (
        )
 
 func setSleepTime(sleepTime int){
-    fmt.Println("Sleep start :", sleepTime, "s")
+    fmt.Println("Sleep start  :", sleepTime, "s")
     time.Sleep(time.Duration(sleepTime) * time.Second)
-    fmt.Println("Sleep fnish :", sleepTime, "s")
+    fmt.Println("Sleep finish :", sleepTime, "s")
 }
 
 
